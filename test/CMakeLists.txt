@@ -1,4 +1,5 @@
 include(FetchContent)
+enable_testing()
 
 FetchContent_Declare(
   googletest
@@ -21,8 +22,11 @@ add_executable(${PROJECT_NAME}.test
 target_link_libraries(${PROJECT_NAME}.test
     ${PROJECT_NAME}
     gtest
-    #gtest_main
+    gtest_main
 )
+
+# регистрируем тест для CTest
+add_test(NAME AllTests COMMAND ${PROJECT_NAME}.test)
 
 
 #target_link_libraries(GTest::GTest INTERFACE gtest_main)  

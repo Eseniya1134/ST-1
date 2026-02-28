@@ -1,0 +1,57 @@
+Start testing: Feb 28 20:55 MSK
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/home/e/VScode/ST-1/build/test/ST-1.test"
+Directory: /home/e/VScode/ST-1/build/test
+"AllTests" start time: Feb 28 20:55 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from CheckPrimeTest
+[ RUN      ] CheckPrimeTest.ZeroAndOne
+[       OK ] CheckPrimeTest.ZeroAndOne (0 ms)
+[ RUN      ] CheckPrimeTest.SmallPrimes
+[       OK ] CheckPrimeTest.SmallPrimes (0 ms)
+[ RUN      ] CheckPrimeTest.SmallNonPrimes
+[       OK ] CheckPrimeTest.SmallNonPrimes (0 ms)
+[ RUN      ] CheckPrimeTest.LargerPrimes
+[       OK ] CheckPrimeTest.LargerPrimes (0 ms)
+[ RUN      ] CheckPrimeTest.LargerNonPrimes
+[       OK ] CheckPrimeTest.LargerNonPrimes (0 ms)
+[----------] 5 tests from CheckPrimeTest (0 ms total)
+
+[----------] 2 tests from NPrimeTest
+[ RUN      ] NPrimeTest.FirstFewPrimes
+[       OK ] NPrimeTest.FirstFewPrimes (0 ms)
+[ RUN      ] NPrimeTest.LaterPrimes
+[       OK ] NPrimeTest.LaterPrimes (0 ms)
+[----------] 2 tests from NPrimeTest (0 ms total)
+
+[----------] 2 tests from NextPrimeTest
+[ RUN      ] NextPrimeTest.AfterSmallNumbers
+[       OK ] NextPrimeTest.AfterSmallNumbers (0 ms)
+[ RUN      ] NextPrimeTest.AfterLargerNumbers
+[       OK ] NextPrimeTest.AfterLargerNumbers (0 ms)
+[----------] 2 tests from NextPrimeTest (0 ms total)
+
+[----------] 2 tests from SumPrimeTest
+[ RUN      ] SumPrimeTest.SmallRanges
+[       OK ] SumPrimeTest.SmallRanges (0 ms)
+[ RUN      ] SumPrimeTest.LargeRange
+[       OK ] SumPrimeTest.LargeRange (1061 ms)
+[----------] 2 tests from SumPrimeTest (1061 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 4 test suites ran. (1062 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   1.07 sec
+----------------------------------------------------------
+Test Passed.
+"AllTests" end time: Feb 28 20:55 MSK
+"AllTests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 28 20:55 MSK
