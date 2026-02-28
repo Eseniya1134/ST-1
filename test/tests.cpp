@@ -62,8 +62,8 @@ TEST(NextPrimeTest, AfterLargerNumbers) {
 TEST(SumPrimeTest, SmallRanges) {
   EXPECT_EQ(sumPrime(0), 0);
   EXPECT_EQ(sumPrime(2), 0);
-  EXPECT_EQ(sumPrime(10), 17);  
-  EXPECT_EQ(sumPrime(20), 77);  
+  EXPECT_EQ(sumPrime(10), 17);
+  EXPECT_EQ(sumPrime(20), 77);
 }
 
 TEST(SumPrimeTest, LargeRange) {
